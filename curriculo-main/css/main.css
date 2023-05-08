@@ -1,0 +1,84 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    background-color: #0e0c31;
+    padding: 0;
+    color:#edf0f1;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+/* .ui{
+    background: -webkit-gradient(linear, left top, left bottom, from(#0e0c31), to(#250b23));
+    background: -moz-linear-gradient(top, #CCCCCC, #000000);
+    filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#CCCCCC', EndColorStr='#000000');           
+} */
+
+li, a:link, button{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+    cursor:pointer;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+.logo{
+    cursor:pointer;
+}
+
+.nav__links{
+    list-style: none;
+}
+
+.nav__links li{
+    display: inline-block;
+    padding: 0px 50px;
+}
+
+.nav__links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover{
+   color:#0088a9;
+}
+
+.git{
+    padding:9px 25px;
+    background-color: #0088a9;
+    border:none;
+    color:#edf0f1;
+    border-radius:50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.git:hover{
+    background-color: #0088a9cc;
+    
+}
+
+.container{
+    align-items: center;
+    border-radius: 30px;
+    background: #0a0a0a;
+    box-shadow: 15px 15px 30px #000000,
+               -15px -15px 30px #000000;
+}
+h1,h3{
+    padding-left: 50px;
+    font-family: 'Sigmar', cursive;
+}
